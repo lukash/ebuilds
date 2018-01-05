@@ -15,6 +15,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
+RDEPEND="gnome-base/gconf"
+
 S="${WORKDIR}"
 
 src_unpack() {
